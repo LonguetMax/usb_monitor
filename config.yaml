@@ -1,0 +1,15 @@
+# Default mode of enforcing (make sure to have your whitelist properly setup)
+default_enforcing_mode: false
+
+# The monitor checks for new USB events.
+# Should we also check the devices already connected before we started monitoring ?
+check_initial_devices: false
+
+# Should the devices connected before we started monitoring be considered as safe ?
+# Can be dangerous if a malicious device is plugged before the monitor starts.
+all_initial_devices_are_safe: true
+
+device_whitelist:
+# Each device follows this format (one '-' and the 2 ids per device):
+# - idVendor: 0x8564
+#   idProduct: 0x1000
