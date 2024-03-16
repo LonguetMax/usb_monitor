@@ -6,6 +6,7 @@ default_enforcing_mode: false
 check_initial_devices: false
 
 # Should the devices connected before we started monitoring be considered as safe ?
+# This is done before the initial devices are check (is even set to do so).
 # Can be dangerous if a malicious device is plugged before the monitor starts.
 all_initial_devices_are_safe: true
 
