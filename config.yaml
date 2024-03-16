@@ -12,5 +12,5 @@ all_initial_devices_are_safe: true
 
 device_whitelist:
 # Each device follows this format (one '-' and the 2 ids per device):
-# - idVendor: 0x8564
-#   idProduct: 0x1000
+# - idVendor: 0x12cd
+#   idProduct: 0xab34
